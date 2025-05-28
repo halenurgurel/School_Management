@@ -1,1 +1,1 @@
-# Sınıf_Pratik
+# School Management
