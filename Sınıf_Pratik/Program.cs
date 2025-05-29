@@ -1,8 +1,10 @@
 ﻿using System;
-using Sınıf_Pratik;
+using School_Management;
 class Program
 {
+    //Bu program , okul yönetim sistemi için öğrenci ve öğretmen bilgilerini tutan bir sınıf tanımlamaktadır.
     static void Main()
+    // Öğrenci ve öğretmen bilgilerini tutan Person sınıfını tanımlıyoruz.
     {
         Person student1 = new Person
         {
@@ -32,6 +34,7 @@ class Program
             BirthDate = new DateTime(1990, 11, 5)
         };
 
+        // Öğrenci ve öğretmen bilgilerini ekrana yazdırıyoruz.
         Console.WriteLine("1. Öğrenci Bilgisi: ");
         Console.WriteLine($"Ad: {student1.Name}, Soyad: {student1.Surname}, Doğum Tarihi: {student1.BirthDate.ToShortDateString()}");
 
